@@ -113,5 +113,6 @@ void hello2(String name, int age) {
 }
 // Named parameters
 void hello3({required String name, int? age}) {
-  print('Hello, namaku $name dan umurku ${age ?? 'rahasia'}');
+  print('Hello, namaku $name dan umurku ${age ?? 'rahasia donk'}');
 }
+
